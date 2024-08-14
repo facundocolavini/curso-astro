@@ -13,8 +13,7 @@ Astro es un framework que se especializa para sitios de contenido  donde su fuer
 - File Uploads
 - Integraciones como SEO , RSS y REST
 
-
-## Instalaciones necesarias 
+## Instalaciones necesarias
 
 - Visual Studio
 - Node
