@@ -19,3 +19,7 @@ Astro es un framework que se especializa para sitios de contenido  donde su fuer
 - Node
 - Postman/Insomnia
 - SQLite Viewers: SQLiteBrowser / Table Plus
+
+- Configuración de vscode para formateo en astro agregar en `.vscode/setting.json`
+
+![alt text](image.png)
