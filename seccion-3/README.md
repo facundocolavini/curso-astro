@@ -134,3 +134,22 @@ Para crear estilos de forma condicional hay varias formas.
 ![alt text](image-15.png)
 
 Al hacer la compilacion por mas logica que tengamos en nuestro archivo de astro va a terminar siendo un archivo html.
+
+## ViewTransitions
+
+Las viewtransitions tendremos un fade in al hacer la transision y un prefetch.Ademas de transisiones entre paginas que tenga una elemento similar.
+
+## Paginación Estatica
+
+La paginacion debe utilizar el getStaticPaths por lo que esto quiere decir que debe tener una Paginas dinamicas como `[page].astro` o `[...page].astro` para poder destructurar del getStaticPaths el `{paginate}` y esto nos regresa un objeto pages con la informacion de la pagina, si tiene siguiente que pagina esta,etc.
+
+![alt text](image-16.png)
+
+**[name].astro**: Solo atrapamos una pagina en particular.
+**[...name].astro**: Atrapamos todos los paths que pasen por ese ...page.
+
+[**astro-paginacion**](https://docs.astro.build/en/reference/api-reference/#paginate)
+
+## Paths Alias
+
+![alt text](image-17.png)
